@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meals</title>
+    <!-- linking BootStrap CSS  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css
+    "
+    />
+  </head>
+  <body>
+    <header>
+      <h2 class="text-center text-warning mt-5">Exploring Meals</h2>
+    </header>
+    <main>
+      <section class="container" style="width: 18rem">
+        <h2>Meal Details</h2>
+        <div id="meal-details"></div>
+      </section>
+
+      <section class="container">
+        <input
+          id="search-field"
+          type="text"
+          name=""
+          placeholder="Search Your Food"
+        />
+        <button onclick="searcFood()" class="btn btn-primary">Search</button>
+      </section>
+
+      <section class="container">
+        <h2>My meals</h2>
+        <div
+          id="meals-container"
+          class="row row-cols-1 row-cols-md-3 g-4"
+        ></div>
+      </section>
+    </main>
+    <!-- linking BootStrap Script File -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js
+    "></script>
+    <script src="js/meals.js"></script>
+  </body>
+</html>
